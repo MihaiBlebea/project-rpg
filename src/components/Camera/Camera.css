@@ -1,0 +1,8 @@
+.camera {
+    width: calc(var(--pixel-size) * var(--camera-width));
+    height: calc(var(--pixel-size) * var(--camera-height));
+    overflow: hidden;
+    background: #61ddf7;
+    border: 5px solid black;
+    position:relative;
+}
